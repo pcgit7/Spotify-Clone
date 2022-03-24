@@ -68,6 +68,7 @@ const makeAllPlays = ()=>{
         element.classList.remove('fa-pause-circle');
     })
 }
+
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     element.addEventListener('click',(e)=>{
         songIndex = parseInt(e.target.id)-1;
